@@ -100,26 +100,51 @@
                       </div>
 
           <div class="portfolio-description">
-            <h2>CYBER THREAT DETECTION</h2>
+            <h2><strong> CYBER THREAT DETECTION</strong></h2>
             <p>
-              One of the major challenges in cybersecurity is the provision of an automated and effective
-cyber-threats detection technique. In this paper, we present an AI technique for cyber-threats
-detection, based on artificial neural networks.
-The proposed technique converts multitude of collected security events to individual event
-profiles and use a deep learning-based detection method for enhanced cyber-threat detection.
-For this work, we developed an AI-SIEM system based on a combination of event profiling
-for data pre-processing and different artificial neural network methods, including FCNN,
-CNN, and LSTM. The system focuses on discriminating between true positive and false
-positive alerts, thus helping security analysts to rapidly respond to cyber threats. All
-experiments in this study are performed by authors using two benchmark datasets (NSLKDD
-and CICIDS2017) and two datasets collected in the real world.
-To evaluate the performance comparison with existing methods, we conducted experiments
-using the five conventional machine-learning methods (SVM, k-NN, RF, NB, and DT).
-Consequently, the experimental results of this study ensure that our proposed methods are
-capable of being employed as learning-based models for network intrusion-detection, and
-show that although it is employed in the real world, the performance outperforms the
-conventional machine-learning methods.
+              <h3> Objective/Problem Statement</h3>
+              The primary challenge in cybersecurity is developing an automated and effective technique for detecting cyber threats. Existing methods often struggle to differentiate between true positive and false positive alerts, leading to inefficiencies and increased response times for security analysts. The objective of this project was to create a robust AI-based system capable of accurately detecting cyber threats using advanced neural network techniques.
             </p>
+            <h3> What We Did</h3>
+            <p>We developed an AI-SIEM (Security Information and Event Management) system that leverages artificial neural networks (ANNs) for enhanced cyber-threat detection. The system converts a multitude of collected security events into individual event profiles and employs deep learning methods to identify potential threats more effectively. The system focuses on improving the accuracy of alerts by distinguishing between true positives and false positives.</p>
+            <h3> Tools Used</h3>
+            <li><strong> Data Processing & Profiling:</strong> Python, Pandas</li>
+            <li><strong> Deep Learning Frameworks:</strong> TensorFlow, Keras</li>
+            <li> <strong> Machine Learning Models:</strong> Support Vector Machine (SVM), k-Nearest Neighbors (k-NN), Random Forest (RF), Naive Bayes (NB), Decision Tree (DT)</li>
+            <li><strong> Datasets:</strong> NSL-KDD, CICIDS2017, and two real-world datasets</li>
+            <li><strong> AI- Model</strong> ully Connected Neural Networks (FCNN), Convolutional Neural Networks (CNN), Long Short-Term Memory networks (LSTM)</li>
+          </p>
+          <h3>Key Features</h3>
+          <p>
+            <li><strong> Event Profiling:</strong> Converts raw security events into structured event profiles, enabling more efficient data preprocessing and analysis.</li>
+            <li><strong> Multiple Neural Networks: </strong> Utilizes FCNN, CNN, and LSTM to analyze event profiles from different perspectives and improve detection accuracy.</li>
+            <li><strong> Alert Accuracy:</strong> Focuses on reducing false positives to ensure that alerts generated are actionable and accurate.</li>
+            <li><strong> Benchmarking</strong> Evaluated against traditional machine learning methods to demonstrate the superiority of the proposed approach.</li>
+          </p>
+          <h3> Functionality</h3>
+          <li><strong> Data Ingestion: </strong> The system ingests large volumes of security event data and preprocesses it into structured event profiles.</li>
+          <li><strong> Threat Detection:</strong> Employs deep learning models to analyze the event profiles and detect potential threats.</li>
+          <li><strong> Alert Generation:</strong> Generates alerts based on the analysis, with a focus on minimizing false positives.</li>
+          <li><strong> Performance Comparison: </strong> Compares the effectiveness of neural network-based detection with traditional machine learning models.</li>
+        </p>
+        <h3> Project Implementation</h3>
+        <p> 
+          <li><strong>Data Collection & Preprocessing: </strong>  Collected and preprocessed data from the NSL-KDD and CICIDS2017 datasets, along with real-world data, to create a comprehensive dataset for training and evaluation. </li>
+          <li><strong> Model Development: </strong> Developed and trained multiple neural network models (FCNN, CNN, LSTM) using the preprocessed event profiles.</li>
+          <li> <strong> Evaluation:</strong>Conducted experiments comparing the AI-based system to traditional machine learning methods (SVM, k-NN, RF, NB, DT). </li>
+          <li><strong> System Integration: </strong> Integrated the trained models into the AI-SIEM system to automate the cyber-threat detection process.</li>
+         </p>
+         <h3> Challenges & Solutions</h3>
+         <p>
+          <li><strong> Challenge</strong> Differentiating between true positive and false positive alerts, which is crucial for reducing unnecessary load on security analysts</li>
+          <li><strong> Solution</strong> Implemented event profiling techniques combined with deep learning models to enhance the accuracy of alert classification.</li>
+          <li><strong> Challenge</strong>Ensuring the system performs well across different datasets, including real-world data.</li>
+          <li><strong> Solution</strong> Trained and validated the models on both benchmark datasets and real-world data to ensure robustness and generalizability</li>
+         </p>
+         <h3> Conclusion</h3>
+         <p> The AI-SIEM system developed in this project successfully addresses the challenge of automated and effective cyber-threat detection. By employing advanced neural network techniques and focusing on accurate alert generation, the system outperforms traditional machine learning methods in both benchmark and real-world scenarios. This system not only enhances the efficiency of cybersecurity operations but also aids in the rapid and accurate response to potential threats, proving its value as a learning-based model for network intrusion detection.
+
+         </p>
           </div>
 
 
@@ -132,7 +157,7 @@ conventional machine-learning methods.
   </main><!-- End #main -->
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify -content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
