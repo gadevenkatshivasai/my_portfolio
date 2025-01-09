@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Project Details - VENKAT</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <main id="main">
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-57.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-58.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-59.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-60.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-56.png" alt="">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: JAVA APPLICATION</li>
+                <li><strong>Client</strong>: SELF</li>
+                <li><strong>Project date</strong>: 3 JAN, 2025</li>
+                <li><strong>Project URL</strong>: <a href="#">GITHUB</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="portfolio-description">
+            <h2><strong> HOTEL MANAGEMENT SYSTEM</strong></h2>
+            <h3>Objective / Problem Statement</h3>
+            <p>
+                <li>The task is to develop a Hotel Management System that handles various aspects of hotel operations, including room check-in, check-out, food orders, and maintenance management. The system should allow the hotel staff to manage guest information, order food for guests, check room availability, and perform maintenance tasks. Additionally, the system should be able to save and load room data to and from a file for persistence.</li>
+                </p>
+                <h3>What I Did</h3>
+                <p>
+                    <li> <strong> Room Management:</strong> The system allows rooms to be checked in and checked out, keeping track of the guest name and room status (occupied or not)</li>
+                    <li><strong> Food Ordering:</strong> Guests can place food orders for breakfast, lunch, snacks, and dinner. The system keeps track of these orders</li>
+                    <li><strong> Room Maintenance:</strong> Maintenance tasks can be performed on rooms that are not occupied.</li>
+                    <li><strong> Persistent Data Storage:</strong> The system saves and loads room data, including guest information, room status, and food orders, from a file (hotelData.txt).
+                    </li>
+                </p>
+                <h3><strong> Tools Used</strong></h3>
+                <li><strong> Java Programming Language:</strong> For developing the entire hotel management system</li>
+                <li><strong> Swing (Java GUI):</strong>To create the graphical user interface for interacting with the system. </li>
+                <li><strong> BufferedReader & BufferedWriter:</strong> For reading from and writing to the file to persist room data.</li>
+                <li><strong> JOptionPane:</strong> For displaying dialogs to gather user input, such as room number and guest name. </li>
+                <li><strong> ArrayList:</strong> To store room data in memory for easy access and modification</li>
+            </p>
+            <h3> <strong> Key Features:</strong></h3>
+            <p>
+                <li><strong> Room Check-in and Check-out: </strong>  Allows guests to check into available rooms and check out when their stay is over.</li>
+                <li><strong> Food Ordering:</strong> Guests can order food for breakfast, lunch, snacks, and dinner, and their orders are stored in the system. </li>
+                <li><strong> Maintenance Management:</strong> The system can mark rooms as under maintenance, ensuring they are not assigned to guests during this time</li>
+                <li><strong> Availability Display:</strong> A function to display rooms that are available for booking and not under maintenance.</li>
+                <li><strong> Persistent Data Storage:</strong> All room data, including guest names, food orders, and maintenance status, is saved to a file and can be reloaded when the system is restarted</li>
+            </p>
+            <h3><strong> Project Implementation:</strong></h3>
+            <li><strong> Room Class:</strong> Manages room information such as room number, guest name, occupancy status, maintenance status, and food orders.</li>
+            <li><strong> FoodOrder Class:</strong> Represents the food orders placed by guests, including breakfast, lunch, snacks, and dinner.
+            </li>
+            <li><strong> HotelManagementSystem Class:</strong> The main class that runs the hotel system, providing the GUI and functionality for interacting with rooms, guests, and orders. It includes event listeners for handling user actions such as check-in, check-out, food ordering, and maintenance.</li>
+            <li><strong> File Operations:</strong> The system reads and writes room data to a text file (hotelData.txt) to maintain persistent information across multiple sessions.</li>
+           
+                
+                <h3><strong> Conclusion</strong></h3>
+           <p> 
+            The Hotel Management System is a comprehensive application that simplifies hotel operations. It provides a user-friendly interface for managing room bookings, food orders, and room maintenance. The system also ensures data persistence through file storage, making it robust for real-world usage. Future enhancements could include adding features like room pricing, billing, and customer feedback. Overall, the system efficiently meets the requirements of hotel management and offers a scalable solution for managing guest and room information.
+           </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+  </main><!-- End #main -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
